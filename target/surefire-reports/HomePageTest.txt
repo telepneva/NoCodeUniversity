@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: HomePageTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 34.786 s <<< FAILURE! - in HomePageTest
+professorSpotlightNotHatInformationAboutStudentTeacher  Time elapsed: 10.493 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //p[@class='sw-font-size-xs sw-text-color-616161 sw-font-family-default sw-font-weight-normal sw-text-align-left sw-letter-spacing-normal sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-none sw-padding-right-none ']}
+Expected: texts [Student]
+Screenshot: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211399516.10.png
+Page source: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211399516.10.html
+Timeout: 4 s.
+	at HomePageTest.professorSpotlightNotHatInformationAboutStudentTeacher(HomePageTest.java:48)
+
+buttonStudentDirectoryGoToTheStudentDirectoryPage  Time elapsed: 6.287 s  <<< ERROR!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fdc8a971da1345109c74bd549dec4292, findElement {using=css selector, value= //a[contains(text(), 'Student Directory')]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\anyut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64799}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64799/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fdc8a971da1345109c74bd549dec4292
+	at HomePageTest.buttonStudentDirectoryGoToTheStudentDirectoryPage(HomePageTest.java:39)
+
+professorSpotlightNotHatInformationAboutStudent  Time elapsed: 6.954 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //p[@class='sw-font-size-xs sw-text-color-616161 sw-font-family-default sw-font-weight-normal sw-text-align-left sw-letter-spacing-normal sw-padding-top-6xs sw-padding-bottom-6xs sw-padding-left-none sw-padding-right-none ']}
+Expected: texts [Student]
+Screenshot: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211415703.11.png
+Page source: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211415703.11.html
+Timeout: 4 s.
+	at HomePageTest.professorSpotlightNotHatInformationAboutStudent(HomePageTest.java:21)
+

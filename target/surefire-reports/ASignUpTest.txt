@@ -1,0 +1,109 @@
+-------------------------------------------------------------------------------
+Test set: ASignUpTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 93.998 s <<< FAILURE! - in ASignUpTest
+registrationInvalidEmailStudent  Time elapsed: 8.882 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='error-message required-errors d-block']}
+Expected: visible
+Screenshot: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211247077.0.png
+Page source: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211247077.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error-message required-errors d-block']"}
+	at ASignUpTest.registrationInvalidEmailStudent(ASignUpTest.java:126)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error-message required-errors d-block']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98d2dc099b8a8317a0ba434134d40178, findElement {using=xpath, value=//div[@class='error-message required-errors d-block']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\anyut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63601/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 98d2dc099b8a8317a0ba434134d40178
+	at ASignUpTest.registrationInvalidEmailStudent(ASignUpTest.java:126)
+
+linkTermsOpensTermsPage  Time elapsed: 12.748 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='col-12 sw-font-family-default sw-line-height-loose ']}
+Expected: visible
+Screenshot: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211259608.1.png
+Page source: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211259608.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='col-12 sw-font-family-default sw-line-height-loose ']"}
+	at ASignUpTest.linkTermsOpensTermsPage(ASignUpTest.java:158)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='col-12 sw-font-family-default sw-line-height-loose ']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5834bc885c5e7f5e199af1a6422bc3d3, findElement {using=xpath, value=//div[@class='col-12 sw-font-family-default sw-line-height-loose ']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\anyut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63648}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63648/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5834bc885c5e7f5e199af1a6422bc3d3
+	at ASignUpTest.linkTermsOpensTermsPage(ASignUpTest.java:158)
+
+successfulRegistrationWithRoleStudent  Time elapsed: 9.168 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='MuiBox-root css-4tv0ih']}
+Expected: visible
+Screenshot: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211269024.2.png
+Page source: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211269024.2.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='MuiBox-root css-4tv0ih']"}
+	at ASignUpTest.successfulRegistrationWithRoleStudent(ASignUpTest.java:101)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='MuiBox-root css-4tv0ih']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7069bb5d2127a44f04e07a5f527a907, findElement {using=xpath, value=//div[@class='MuiBox-root css-4tv0ih']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\anyut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63785}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63785/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7069bb5d2127a44f04e07a5f527a907
+	at ASignUpTest.successfulRegistrationWithRoleStudent(ASignUpTest.java:101)
+
+registrationInvalidEmailTeacher  Time elapsed: 8.915 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='error-message required-errors d-block']}
+Expected: visible
+Screenshot: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211282322.3.png
+Page source: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211282322.3.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error-message required-errors d-block']"}
+	at ASignUpTest.registrationInvalidEmailTeacher(ASignUpTest.java:62)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error-message required-errors d-block']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26595b28bfcf95b3c45ddc8f6dc349e7, findElement {using=xpath, value=//div[@class='error-message required-errors d-block']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\anyut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63884}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63884/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26595b28bfcf95b3c45ddc8f6dc349e7
+	at ASignUpTest.registrationInvalidEmailTeacher(ASignUpTest.java:62)
+
+successfulRegistrationWithRoleTeacher  Time elapsed: 9.412 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='MuiBox-root css-4tv0ih']}
+Expected: visible
+Screenshot: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211291893.4.png
+Page source: file:/C:/Users/anyut/IdeaProjects/NoCodeUniversity/build/reports/tests/1687211291893.4.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='MuiBox-root css-4tv0ih']"}
+	at ASignUpTest.successfulRegistrationWithRoleTeacher(ASignUpTest.java:26)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='MuiBox-root css-4tv0ih']"}
+  (Session info: chrome=114.0.5735.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f158e62716b836560213b78fe9089446, findElement {using=xpath, value=//div[@class='MuiBox-root css-4tv0ih']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\anyut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63937/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f158e62716b836560213b78fe9089446
+	at ASignUpTest.successfulRegistrationWithRoleTeacher(ASignUpTest.java:26)
+
